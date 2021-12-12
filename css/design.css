@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+.navclass {
+    width: 100%;
+    padding: 15px;
+}
+
+.navigation {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.home a {
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.home a:hover {
+    background-color: rgb(221, 219, 219);
+}
+
+.imagc {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.imagc img {
+    width: 100%;
+    height: auto;
+}
+
+.search {
+    padding: 10px;
+    width: 75%;
+    border-radius: 25px;
+    background-color: #EFEFEF;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    background-color: #EFEFEF;
+}
+
+.notification {
+    width: 13%;
+}
+
+.notimain {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.icon:hover {
+    background-color: rgb(221, 219, 219);
+}
+
+.icon svg {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.icon i {
+    height: auto;
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.home a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagegallery {
+    width: 100%;
+}
+
+.imgrow {
+    display: flex;
+    width: 98%;
+}
+
+.gallery {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+
+.imagebox {
+    width: 17%;
+    display: grid;
+}
+
+.imagebox img {
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.imagebox:hover {}
+
+.imagebox .imagefooter span {
+    margin-left: 5px;
+    font-family: monospace;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 150px;
+}
+
+.imghov {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+
+.topright,
+.topleft,
+.bottom {
+    position: absolute;
+    opacity: 0;
+}
+
+.topright {
+    top: 16px;
+    right: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+.topleft {
+    top: 16px;
+    left: 16px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 12px;
+    left: 12px;
+    width: 250px;
+    height: 40px;
+}
+
+.botleft {
+    width: 150px;
+    background-color: rgb(219, 219, 219);
+    height: 40px;
+    color: black;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.botleft p {
+    width: 150px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.botright {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.botrightdemo {
+    background-color: rgb(219, 219, 219);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.imghov:hover .image {
+    opacity: 0.6;
+}
+
+.imghov:hover .topright {
+    opacity: 1;
+}
+
+.imghov:hover .topleft {
+    opacity: 1;
+}
+
+.imghov:hover .bottom {
+    opacity: 1;
+}
+
+.topright {
+    background-color: #c40000;
+    color: white;
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topright p {
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.imgfooter {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.imgfooter p {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.usrname {
+    font-size: 13px;
+}
+
+.imagebox i {
+    margin-left: 5px;
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 25px;
+}
